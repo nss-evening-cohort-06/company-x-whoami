@@ -5,3 +5,57 @@ font-family: 'Playfair Display', serif;
 
 /*FOR PRAGRAPHS etc.*/
 font-family: 'Libre Baskerville', serif;
+
+/*NAVBAR*/
+.nav-container {
+	display: flex; 
+	justify-content: flex-end;
+	flex-direction: row;
+	flex-wrap: wrap;	
+	text-decoration: none;
+	margin: -8px;
+}
+
+.logo {
+	text-align: center;
+	position: fixed;
+	margin: 7px;
+	font-size: 2em;
+	color: white;
+}
+
+ul {
+	background-color: gray;
+	padding: 16px;
+	margin: -8px;
+	text-align: right;
+}
+
+
+ul li {
+	background-color: gray;
+	font-family: 'Playfair Display', serif;
+	font-size: 1em;
+	color: black;
+	list-style-type: none;
+	margin: -3px;
+	display: inline;
+	text-decoration: none;
+	padding: 14px 1px;
+	line-height: 18px;
+}
+
+
+
+
+nav a {
+	text-decoration: none;
+	transition: .3s background-color;
+	padding: 16px;
+	color: white;
+}
+
+nav a:hover {
+	background-color: white;
+	color: black;
+}
