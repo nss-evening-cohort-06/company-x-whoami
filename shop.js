@@ -113,7 +113,6 @@ function buildDomString(product){
     domString +=      '<img src="' + product.imagePath + '" alt="' + product.imageAlt + '">';
     domString +=    '</div>';
     domString +=      '<h6>$' + product.price + '</h6>';
-    domString +=    '</div>';
     domString +=    '</section>';
     return domString;
 }
