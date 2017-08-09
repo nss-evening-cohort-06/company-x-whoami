@@ -116,3 +116,13 @@ function buildDomString(product){
     domString +=    '</section>';
     return domString;
 }
+
+function printProductArrayToDom(productArray){
+  for (var i = 0; i < productArray.length; i ++) {
+    var currentProduct = productArray[i];
+    var productDomString = buildDomString(currentProduct)
+    productContainer.innerHTML += productDomString; 
+  }
+}
+
+printProductArrayToDom(allProducts);
