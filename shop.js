@@ -5,15 +5,13 @@ var product1 = {
   imagePath: "",
   imageAlt: "",
   price: 0,
-  soldOut: false 
 };
 
 var product2 = {
   name: "product name",
   imagePath: "",
   imageAlt: "",
-  price: 0,
-  soldOut: false 
+  price: 0, 
 };
 
 var product3 = {
@@ -21,7 +19,6 @@ var product3 = {
   imagePath: "",
   imageAlt: "",
   price: 0,
-  soldOut: false 
 };
 
 var product4 = {
@@ -29,7 +26,6 @@ var product4 = {
   imagePath: "",
   imageAlt: "",
   price: 0,
-  soldOut: false 
 };
 
 var product5 = {
@@ -37,7 +33,6 @@ var product5 = {
   imagePath: "",
   imageAlt: "",
   price: 0,
-  soldOut: false 
 };
 
 var product6 = {
@@ -45,7 +40,6 @@ var product6 = {
   imagePath: "",
   imageAlt: "",
   price: 0,
-  soldOut: false 
 };
 
 var product7 = {
@@ -53,7 +47,6 @@ var product7 = {
   imagePath: "",
   imageAlt: "",
   price: 0,
-  soldOut: false 
 };
 
 var product8 = {
@@ -61,15 +54,13 @@ var product8 = {
   imagePath: "",
   imageAlt: "",
   price: 0,
-  soldOut: false 
 };
 
 var product9 = {
   name: "product name",
   imagePath: "",
   imageAlt: "",
-  price: 0,
-  soldOut: false 
+  price: 0, 
 };
 
 var product10 = {
@@ -77,7 +68,6 @@ var product10 = {
   imagePath: "",
   imageAlt: "",
   price: 0,
-  soldOut: false 
 };
 
 var product11 = {
@@ -85,7 +75,6 @@ var product11 = {
   imagePath: "",
   imageAlt: "",
   price: 0,
-  soldOut: false 
 };
 
 var product12 = {
@@ -93,5 +82,4 @@ var product12 = {
   imagePath: "",
   imageAlt: "",
   price: 0,
-  soldOut: false 
 };
