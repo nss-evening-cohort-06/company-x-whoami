@@ -105,14 +105,14 @@ var productContainer = document.getElementById("product-container");
 function buildDomString(product){
   var domString = "";
 
-  domString +=  '<section class="product">';
-    domString +=    '<div class="title">';
-    domString +=          '<h2>' + product.name + '</h2>';
-    domString +=      '</div>';
-    domString +=      '<div class="image">';
-    domString +=      '<img src="' + product.imagePath + '" alt="' + product.imageAlt + '">';
-    domString +=    '</div>';
-    domString +=      '<h6>$' + product.price + '</h6>';
+  	domString +=  '<section class="product">';
+    domString +=   	 '<div class="image">';
+    domString +=     		'<img src="' + product.imagePath + '" alt="' + product.imageAlt + '">';
+    domString +=   	 '</div>';
+    domString +=	 '<div class="details">';
+    domString +=        	'<h3>' + product.name + '</h3>';
+    domString +=      		'<h5>$' + product.price + '</h5>';
+    domString +=     '</div>';
     domString +=    '</section>';
     return domString;
 }
