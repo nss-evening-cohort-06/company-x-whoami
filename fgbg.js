@@ -47,6 +47,20 @@ for (var i = 0; i < employees.length; i++) {
 
 //Jobs Array
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var allJobs = [];
 
 var job1 = {
