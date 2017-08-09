@@ -1,84 +1,84 @@
 var allProducts = [];
 
 var product1 = {
-  name: "product name",
+  name: "product 1 name",
   imagePath: "",
   imageAlt: "",
   price: 0
 };
 
 var product2 = {
-  name: "product name",
+  name: "product 2 name",
   imagePath: "",
   imageAlt: "",
   price: 0
 };
 
 var product3 = {
-  name: "product name",
+  name: "product 3 name",
   imagePath: "",
   imageAlt: "",
   price: 0
 };
 
 var product4 = {
-  name: "product name",
+  name: "product 4 name",
   imagePath: "",
   imageAlt: "",
   price: 0
 };
 
 var product5 = {
-  name: "product name",
+  name: "product 5 name",
   imagePath: "",
   imageAlt: "",
   price: 0
 };
 
 var product6 = {
-  name: "product name",
+  name: "product 6 name",
   imagePath: "",
   imageAlt: "",
   price: 0
 };
 
 var product7 = {
-  name: "product name",
+  name: "product 7 name",
   imagePath: "",
   imageAlt: "",
   price: 0
 };
 
 var product8 = {
-  name: "product name",
+  name: "product 8 name",
   imagePath: "",
   imageAlt: "",
   price: 0
 };
 
 var product9 = {
-  name: "product name",
+  name: "product 9 name",
   imagePath: "",
   imageAlt: "",
   price: 0 
 };
 
 var product10 = {
-  name: "product name",
+  name: "product 10 name",
   imagePath: "",
   imageAlt: "",
   price: 0
 };
 
 var product11 = {
-  name: "product name",
+  name: "product 11 name",
   imagePath: "",
   imageAlt: "",
   price: 0
 };
 
 var product12 = {
-  name: "product name",
+  name: "product 12 name",
   imagePath: "",
   imageAlt: "",
   price: 0
@@ -97,31 +97,38 @@ allProducts.push(product10);
 allProducts.push(product11);
 allProducts.push(product12);
 
+//try to shorten code on Arrays
+
+// var name = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+// var imagePath = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+// var imageAlt = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+// var price = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+
 console.log("FGBG Product Line: ", allProducts);
 
 var productContainer = document.getElementById("product-container");
 
 
-function buildDomString(product){
-  var domString = "";
+function buildPigString(product){
+  var pigString = "";
 
-  	domString +=  '<section class="product">';
-    domString +=   	 '<div class="image">';
-    domString +=     		'<img src="' + product.imagePath + '" alt="' + product.imageAlt + '">';
-    domString +=   	 '</div>';
-    domString +=	 '<div class="details">';
-    domString +=        	'<h3>' + product.name + '</h3>';
-    domString +=      		'<h5>$' + product.price + '</h5>';
-    domString +=     '</div>';
-    domString +=    '</section>';
-    return domString;
+  	pigString +=  '<section class="product">';
+    pigString +=   	 '<div class="image">';
+    pigString +=     		'<img src="' + product.imagePath + '" alt="' + product.imageAlt + '">';
+    pigString +=   	 '</div>';
+    pigString +=	 '<div class="details">';
+    pigString +=        	'<h3>' + product.name + '</h3>';
+    pigString +=      		'<h5>' + product.price + '</h5>';
+    pigString +=     '</div>';
+    pigString +=    '</section>';
+    return pigString;
 }
 
 function printProductArrayToDom(productArray){
   for (var i = 0; i < productArray.length; i ++) {
     var currentProduct = productArray[i];
-    var productDomString = buildDomString(currentProduct)
-    productContainer.innerHTML += productDomString; 
+    var productPigString = buildPigString(currentProduct)
+    productContainer.innerHTML += productPigString; 
   }
 }
 
