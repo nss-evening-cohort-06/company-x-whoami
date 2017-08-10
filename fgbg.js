@@ -19,7 +19,6 @@ var employees = [
 		title: "Lead Designer",
 		bio: "Lorem Ipsum"
 	}];
-	console.log(employees[0]);
 // create function to add employees
 	// accept 4 arguements: name, title, imgPath, bio
 function addEmployee (imagePath, name, title, bio) {

@@ -16,6 +16,15 @@ font-family: 'Libre Baskerville', serif;
 	margin: -8px;
 }
 
+.nav-container {
+	display: flex; 
+	justify-content: flex-end;
+	flex-direction: row;
+	flex-wrap: wrap;	
+	text-decoration: none;
+	margin: -8px;
+}
+
 .logo {
 	text-align: center;
 	position: fixed;
