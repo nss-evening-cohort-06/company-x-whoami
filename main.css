@@ -45,9 +45,6 @@ ul li {
 	line-height: 18px;
 }
 
-
-
-
 nav a {
 	text-decoration: none;
 	transition: .3s background-color;
@@ -59,6 +56,9 @@ nav a:hover {
 	background-color: white;
 	color: black;
 }
+
+
+
 
 
 
@@ -91,10 +91,18 @@ nav a:hover {
 	margin: 20px;
 }
 
-.job-header {
+.job-header  {
 	font-family: 'Libre Baskerville', serif;
 	color: dimgray;
 	text-align: center;
+	margin-top: 50px;
+}
+
+.apply {
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+	text-align: center;
+	margin: 20px 0;
 }
 
 #job-container {
@@ -102,9 +110,27 @@ nav a:hover {
 	color: dimgray;
 }
 
+#job-container > h3, h4, p {
+	margin: 2px 20px;
+}
 
+.job {
+	padding: 20px 0;
+}
 
+.description {
+	font-size: .75em;
+}
 
+.title {
+	margin: 2px 20px;
+}
+
+#apply-button {
+	margin-left: 20px;
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+}
 
 
 
