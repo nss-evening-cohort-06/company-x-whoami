@@ -59,3 +59,59 @@ nav a:hover {
 	background-color: white;
 	color: black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* JOBS PAGE STYLING */
+.career-header {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	margin-top: 60px;
+	color: dimgray;
+}
+
+.career-blurb {
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+	margin: 20px;
+}
+
+.job-header {
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+	text-align: center;
+}
+
+#job-container {
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
