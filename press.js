@@ -1,4 +1,4 @@
-var domString;
+var domString = "";
 var awards = [
 	{
 		imgPath: "award-images/Award1.jpg",
