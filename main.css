@@ -16,15 +16,6 @@ font-family: 'Libre Baskerville', serif;
 	margin: -8px;
 }
 
-.nav-container {
-	display: flex; 
-	justify-content: flex-end;
-	flex-direction: row;
-	flex-wrap: wrap;	
-	text-decoration: none;
-	margin: -8px;
-}
-
 .logo {
 	text-align: center;
 	position: fixed;
@@ -67,4 +58,37 @@ nav a {
 nav a:hover {
 	background-color: white;
 	color: black;
+}
+
+/*PRESS PAGE*/
+#press-container h3 {
+	font-family: 'Playfair Display', serif;
+}
+#press-container p {
+	font-family: 'Libre Baskerville', serif;
+}
+#press-container section {
+  display: flex;
+  margin: 5% 15% 5% 10%;
+  }
+#press-container img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.award-description {
+	margin-left: 3%;
+}
+.award-name {
+	font-size: 1.4em;
+	font-weight: 400;
+	padding-bottom: 1px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+.award-blurb {
+  margin-top: 0;
+  text-indent: 2em;
+  line-height: 1.5em;
 }
