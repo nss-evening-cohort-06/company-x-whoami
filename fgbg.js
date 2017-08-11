@@ -38,9 +38,9 @@ addEmployee("employees/Nutkin.png", "Lindsay Loham", "title", "about");
 for (var i = 0; i < employees.length; i++) {
 	domString +=	'<div class="employee">';
 	domString +=  	'<img src=' + employees[i].imgPath + '>';
-	domString +=		'<h2>' + employees[i].name + '</div>';
+	domString +=		'<h2>' + employees[i].name + '</h2>';
 	domString +=		'<h3>' + employees[i].title + '</h3>';
-	domString +=		'<p>' + employees[i].bio + '<p>';
+	domString +=		'<p>' + employees[i].bio + '</p>';
 	domString +=	'</div>'
 }
 document.getElementById("employee-container").innerHTML = domString;

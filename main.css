@@ -57,6 +57,27 @@ nav a:hover {
 	color: black;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* JOBS PAGE STYLING */
 .career-header {
 	font-family: 'Libre Baskerville', serif;
@@ -83,6 +104,7 @@ nav a:hover {
 	color: dimgray;
 	text-align: center;
 	margin: 20px 0;
+	border-bottom: 2px solid black;
 }
 
 #job-container {
@@ -96,6 +118,7 @@ nav a:hover {
 
 .job {
 	padding: 20px 0;
+	border-bottom: 2px solid black;
 }
 
 .description {
@@ -111,6 +134,31 @@ nav a:hover {
 	font-family: 'Libre Baskerville', serif;
 	color: dimgray;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*PRESS PAGE*/
 #press-container h3 {
@@ -144,5 +192,54 @@ nav a:hover {
   text-indent: 2em;
   line-height: 1.5em;
 }
+
+
+
+
+/*TEAM PAGE*/
+#employee-container {
+	margin: 50px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2% 0;
+}
+.employee {
+	padding: 2% 5%;
+  background-color: aliceblue;
+  margin-bottom: 30px;
+}
+.employee img {
+	width: 300px;
+	height: 300px;
+}
+.employee h2 {
+	margin-top: 2px;
+}
+#team-page-header {
+  padding-top: 25px;
+  text-align: center;
+
+}
+/*SHOP PAGE*/
+#product-container {
+margin: 1% auto;
+}
+.product {
+
+}
+.product img {
+	width: 375px;
+	height: 400px;
+}
+
+
+
+
+
+
+
+
 
 
