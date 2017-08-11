@@ -197,6 +197,9 @@ nav a:hover {
 
 
 /*TEAM PAGE*/
+#color-box {
+	background-color: ghostwhite;
+}
 #team-page-header {
   padding-top: 25px;
   text-align: center;
@@ -210,25 +213,28 @@ nav a:hover {
   justify-content: space-around;
   text-align: center;
   padding: 2% 0;
-  background-color: aliceblue;
-
 }
 .employee {
 	padding: 2% 5%;
   margin-bottom: 30px;
+  background-color: ghostwhite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+
 }
 .employee img {
 	width: 300px;
 	height: 300px;
 }
+.employee h2 {
+	margin-top: 2px;
+	font-size: 1.7em;
+	font-family: 'Playfair Display', serif;
+}
 .employee h3, .employee p {
 	font-family: 'Libre Baskerville', serif;
 }
-.employee h2 {
-	margin-top: 2px;
-	font-family: 'Playfair Display', serif;
-}
 .employee h3 {
+	font-size: 1.1em;
 	border-bottom: 2px solid black;
 }
 /*SHOP PAGE*/
