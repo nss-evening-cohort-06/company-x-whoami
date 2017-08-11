@@ -1,5 +1,6 @@
 //Shop Now 
 
+
 var products = [];
 function addProduct (name, imagePath, imageAlt, price){
 	products.push ({
