@@ -30,9 +30,9 @@ function addEmployee (imagePath, name, title, bio) {
 	});
 }
 // call the function
-addEmployee("employees/Baker.png", "Guineath Paltro", "title", "about");
+addEmployee("employees/Baker.png", "Guineath Paltro", "Chef", "Lorem Ipsum");
 // call the function again
-addEmployee("employees/Nutkin.png", "Lindsay Loham", "title", "about");
+addEmployee("employees/Nutkin.png", "Lindsay Loham", "Marketing Director", "Lorem Ipsum");
 // write and Print to domString
 	var domString = "";
 for (var i = 0; i < employees.length; i++) {
