@@ -62,8 +62,8 @@ div.mainimage {
 	height: 548px;
 	content:url("Guineamain (1).png");
 	float: right;
-}	
-
+	padding-left: 378px;	
+}
 .footer {
 	height: 21px;
 	background: gray;
@@ -72,9 +72,6 @@ div.mainimage {
 	padding: 22px;
 	font-family: 'Playfair Display', serif;
 }
-
-
-	
 
 
 
@@ -135,8 +132,7 @@ div.mainimage {
 	color: dimgray;
 }
 
-
-
+/*STICKY FOOTER*/
 .Site {	
 	display: flex;
 	min-height: 100vh;
@@ -146,19 +142,21 @@ div.mainimage {
 .Site-content {
 	flex: 1;
 }
-	
-
-
-
-
-
-
-
-
-
-
-
-
+/*SHOP NOW BUTTON*/	
+.button {
+	background-color: gray;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 28px;
+	width: 182px;
+	position: relative;
+	top: -261px;
+	left: 309px;
+	font-family: 'Playfair Display', serif;
+	padding: 9px;
+}
 
 /*PRESS PAGE*/
 #press-container h3 {
@@ -234,8 +232,16 @@ margin: 1% auto;
 	height: 400px;
 }
 
-
-
+/*HOMEPAGE TEXT*/
+.Homepage-text {
+	color: black;
+	position: relative;
+	top: -500px;
+	left: 177px;
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	text-shadow: 0px 1px grey;
+}
 
 
 
