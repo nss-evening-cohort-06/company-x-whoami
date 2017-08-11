@@ -18,8 +18,8 @@ font-family: 'Libre Baskerville', serif;
 
 .logo {
 	text-align: center;
-	position: fixed;
-	margin: 7px;
+	position: absolute;
+	margin: 0px;
 	font-size: 2em;
 	color: white;
 }
@@ -56,25 +56,22 @@ nav a:hover {
 	background-color: white;
 	color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*HOMEPAGE STYLING*/
+div.mainimage {
+	width: 893px;
+	height: 548px;
+	content:url("Guineamain (1).png");
+	float: right;
+	padding-left: 378px;	
+}
+.footer {
+	height: 21px;
+	background: gray;
+	color: white;
+	margin: -9px;
+	padding: 22px;
+	font-family: 'Playfair Display', serif;
+}
 
 
 
@@ -138,30 +135,31 @@ nav a:hover {
 	color: dimgray;
 }
 
+/*STICKY FOOTER*/
+.Site {	
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Site-content {
+	flex: 1;
+}
+/*SHOP NOW BUTTON*/	
+.button {
+	background-color: gray;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 28px;
+	width: 182px;
+	position: relative;
+	top: -261px;
+	left: 309px;
+	font-family: 'Playfair Display', serif;
+	padding: 9px;
+}
 
 /*PRESS PAGE*/
 #press-container h3 {
@@ -237,8 +235,16 @@ margin: 1% auto;
 	height: 400px;
 }
 
-
-
+/*HOMEPAGE TEXT*/
+.Homepage-text {
+	color: black;
+	position: relative;
+	top: -500px;
+	left: 177px;
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	text-shadow: 0px 1px grey;
+}
 
 
 
