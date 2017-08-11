@@ -5,33 +5,24 @@ var job1 = {
 	title: "Graphic Designer",
 	location: "Parsippany, NJ",
 	description: "This position works the design of digital assets, printed promotional materials, social media content, blog graphics, and other projects in conjunction with our marketing and e-commerce team. Conceptualizes and develops innovative designs that maintain brand consistency.", 
-	apply: "",
-	apply: "Wanna be a guinea too? Email your resume and portfolio link to ",
-	applyLink: "",
 }
 
 var job2 = {
 	title: "Executive Assistant",
 	location: "Parsippany, NJ",
 	description: "",
-	apply: "",
-	applyLink: "",
 }
 
 var job3 = {
 	title: "",
 	location: "San Diego, CA",
 	description: "",
-	apply: "",
-	applyLink: "",
 }
 
 var job4 = {
 	title: "",
 	location: "San Diego, CA",
 	description: "",
-	apply: "",
-	applyLink: "",
 }
 
 allJobs.push(job1);
@@ -51,10 +42,6 @@ for (var i = 0; i < allJobs.length; i++){
 	var domString = "";
 
 	domString += '<article class="job">';
-	domString += 	'<h3>' + currentJob.title + '</h3>';
-	domString += 	'<h4>' + currentJob.location + '</h4>';
-	domString += 	'<p>' + currentJob.description + '</p>';
-	domString +=	'<p>' + currentJob.apply + '</p>';
 	domString += 	'<h3 class="title">' + currentJob.title + '</h3>';
 	domString += 	'<h4>' + currentJob.location + '</h4>';
 	domString += 	'<p class="description">' + currentJob.description + '</p>';
@@ -65,7 +52,7 @@ for (var i = 0; i < allJobs.length; i++){
 	console.log("test:", domString);
 
 }
-}
+
 
 document.getElementById("apply-button").addEventListener("click", function (){
 	applyScroll;
