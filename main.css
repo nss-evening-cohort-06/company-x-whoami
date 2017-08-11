@@ -18,8 +18,8 @@ font-family: 'Libre Baskerville', serif;
 
 .logo {
 	text-align: center;
-	position: fixed;
-	margin: 7px;
+	position: absolute;
+	margin: 0px;
 	font-size: 2em;
 	color: white;
 }
@@ -56,25 +56,25 @@ nav a:hover {
 	background-color: white;
 	color: black;
 }
+/*HOMEPAGE STYLING*/
+div.mainimage {
+	width: 893px;
+	height: 548px;
+	content:url("Guineamain (1).png");
+	float: right;
+}	
+
+.footer {
+	height: 21px;
+	background: gray;
+	color: white;
+	margin: -9px;
+	padding: 22px;
+	font-family: 'Playfair Display', serif;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
 
 
 
@@ -137,16 +137,16 @@ nav a:hover {
 
 
 
+.Site {	
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
 
-
-
-
-
-
-
-
-
-
+.Site-content {
+	flex: 1;
+}
+	
 
 
 
