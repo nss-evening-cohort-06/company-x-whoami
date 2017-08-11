@@ -252,3 +252,93 @@ margin: 1% auto;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Shop
+
+/***** Card Styling *****/
+
+#product-container {
+	padding: 30px;
+	width: 400px;
+	height: 400px;
+	border: 2px solid slategray;
+}
+
+.image img {
+	width: 400px;
+	height: 300px;
+}
+
+.details > * {
+	text-align: center;
+	margin: 0;
+}
+
+.details {
+	padding: 2% 0;
+}
+
+.details h3 {
+	display: inline-block;
+
+}
+
+.details h5 {
+	display: inline-block;
+	text-align: end;
+}
+
+
+/***** Card Layout *****/
+
+#product-container {
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
