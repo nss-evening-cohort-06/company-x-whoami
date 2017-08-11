@@ -45,9 +45,6 @@ ul li {
 	line-height: 18px;
 }
 
-
-
-
 nav a {
 	text-decoration: none;
 	transition: .3s background-color;
@@ -59,3 +56,98 @@ nav a:hover {
 	background-color: white;
 	color: black;
 }
+
+/* JOBS PAGE STYLING */
+.career-header {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	margin-top: 60px;
+	color: dimgray;
+}
+
+.career-blurb {
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+	margin: 20px;
+}
+
+.job-header  {
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.apply {
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+	text-align: center;
+	margin: 20px 0;
+}
+
+#job-container {
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+}
+
+#job-container > h3, h4, p {
+	margin: 2px 20px;
+}
+
+.job {
+	padding: 20px 0;
+}
+
+.description {
+	font-size: .75em;
+}
+
+.title {
+	margin: 2px 20px;
+}
+
+#apply-button {
+	margin-left: 20px;
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+}
+
+/*PRESS PAGE*/
+#press-container h3 {
+	font-family: 'Playfair Display', serif;
+}
+#press-container p {
+	font-family: 'Libre Baskerville', serif;
+}
+#press-container section {
+  display: flex;
+  margin: 5% 15% 5% 10%;
+  }
+#press-container img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.award-description {
+	margin-left: 3%;
+}
+.award-name {
+	font-size: 1.4em;
+	font-weight: 400;
+	padding-bottom: 1px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+.award-blurb {
+  margin-top: 0;
+  text-indent: 2em;
+  line-height: 1.5em;
+}
+<<<<<<< HEAD
+/*TEAM PAGE*/
+
+
+=======
+>>>>>>> master
+

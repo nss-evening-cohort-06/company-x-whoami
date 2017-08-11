@@ -6,6 +6,8 @@ var job1 = {
 	location: "Parsippany, NJ",
 	description: "This position works the design of digital assets, printed promotional materials, social media content, blog graphics, and other projects in conjunction with our marketing and e-commerce team. Conceptualizes and develops innovative designs that maintain brand consistency.", 
 	apply: "",
+	apply: "Wanna be a guinea too? Email your resume and portfolio link to ",
+	applyLink: "",
 }
 
 var job2 = {
@@ -13,6 +15,7 @@ var job2 = {
 	location: "Parsippany, NJ",
 	description: "",
 	apply: "",
+	applyLink: "",
 }
 
 var job3 = {
@@ -20,6 +23,7 @@ var job3 = {
 	location: "San Diego, CA",
 	description: "",
 	apply: "",
+	applyLink: "",
 }
 
 var job4 = {
@@ -27,6 +31,7 @@ var job4 = {
 	location: "San Diego, CA",
 	description: "",
 	apply: "",
+	applyLink: "",
 }
 
 allJobs.push(job1);
@@ -37,6 +42,7 @@ allJobs.push(job4);
 console.log(allJobs);
 
 var jobContainer = document.getElementById("job-container");
+var applyScroll = document.getElementById("apply").scrollIntoView();
 
 for (var i = 0; i < allJobs.length; i++){
 
@@ -49,9 +55,24 @@ for (var i = 0; i < allJobs.length; i++){
 	domString += 	'<h4>' + currentJob.location + '</h4>';
 	domString += 	'<p>' + currentJob.description + '</p>';
 	domString +=	'<p>' + currentJob.apply + '</p>';
+	domString += 	'<h3 class="title">' + currentJob.title + '</h3>';
+	domString += 	'<h4>' + currentJob.location + '</h4>';
+	domString += 	'<p class="description">' + currentJob.description + '</p>';
+	domString +=	'<button type="button" id="apply-button">' + "Apply Today" + '</button>'
 	domString += '</article>';
 
 	jobContainer.innerHTML += domString;
 	console.log("test:", domString);
 
 }
+}
+
+document.getElementById("apply-button").addEventListener("click", function (){
+	applyScroll;
+});
+
+
+
+
+
+
