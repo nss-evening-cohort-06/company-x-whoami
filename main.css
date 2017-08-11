@@ -193,6 +193,12 @@ nav a:hover {
   line-height: 1.5em;
 }
 /*TEAM PAGE*/
+#team-page-header {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 1.6em;
+	font-family: 'Playfair Display', serif;
+}
 #employee-container {
 	margin: 50px 10%;
   display: flex;
@@ -200,23 +206,26 @@ nav a:hover {
   justify-content: space-around;
   text-align: center;
   padding: 2% 0;
+  background-color: aliceblue;
+
 }
 .employee {
 	padding: 2% 5%;
-  background-color: aliceblue;
   margin-bottom: 30px;
 }
 .employee img {
 	width: 300px;
 	height: 300px;
 }
+.employee h3, .employee p {
+	font-family: 'Libre Baskerville', serif;
+}
 .employee h2 {
 	margin-top: 2px;
+	font-family: 'Playfair Display', serif;
 }
-#team-page-header {
-  padding-top: 25px;
-  text-align: center;
-
+.employee h3 {
+	border-bottom: 2px solid black;
 }
 /*SHOP PAGE*/
 #product-container {
