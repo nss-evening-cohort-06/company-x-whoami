@@ -145,3 +145,23 @@ nav a:hover {
   line-height: 1.5em;
 }
 
+/*SHOP PAGE*/
+#product-container {
+margin: 1% auto;
+}
+.product {
+
+}
+.product img {
+	width: 375px;
+	height: 400px;
+}
+
+
+
+
+
+
+
+
+
