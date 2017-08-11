@@ -2,19 +2,19 @@
 // create array of 3 employees
 var employees = [
 	{
-		imgPath: "glasses pic",
+		imgPath: "employees/Nerd.png",
 		name: "Jerry Swinefield",
 		title: "CEO",
 		bio: "Lorem Ipsum"
 	},
 	{
-		imgPath: "bowie pic",
+		imgPath: "employees/Bowie.png",
 		name: "Diggy Bundy",
 		title: "Creative Director",
 		bio: "Lorem Ipsum"
 	},
 	{
-		imgPath: "artist",
+		imgPath: "employees/Artist.png",
 		name: "Amy Swinehouse",
 		title: "Lead Designer",
 		bio: "Lorem Ipsum"
@@ -30,20 +30,20 @@ function addEmployee (imagePath, name, title, bio) {
 	});
 }
 // call the function
-addEmployee("pic", "Guineath Paltro", "title", "about");
+addEmployee("employees/Baker.png", "Guineath Paltro", "title", "about");
 // call the function again
-addEmployee("pic", "Lindsay Loham", "title", "about");
+addEmployee("employees/Nutkin.png", "Lindsay Loham", "title", "about");
 // write and Print to domString
-	var domString;
+	var domString = "";
 for (var i = 0; i < employees.length; i++) {
-	domString +=	'<div>';
-	domString +=  	'<div>' + employees[0].imgPath + '</div>';
-	domString +=		'<h2>' + employees[1].name + '</div>';
-	domString +=		'<h3>' + employees[2].title + '</h3>';
-	domString +=		'<p>' + employees[3].bio + '<p>';
+	domString +=	'<div class="employee">';
+	domString +=  	'<img src=' + employees[i].imgPath + '>';
+	domString +=		'<h2>' + employees[i].name + '</div>';
+	domString +=		'<h3>' + employees[i].title + '</h3>';
+	domString +=		'<p>' + employees[i].bio + '<p>';
 	domString +=	'</div>'
 }
-
+document.getElementById("employee-container").innerHTML = domString;
 //Jobs Array
 
 var allJobs = [];
