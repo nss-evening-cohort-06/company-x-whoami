@@ -9,7 +9,7 @@ var employees = [
 	},
 	{
 		imgPath: "employees/Bowie.png",
-		name: "Diggy Bundy",
+		name: "Piggy Bundy",
 		title: "Creative Director",
 		bio: "Lorem Ipsum"
 	},
