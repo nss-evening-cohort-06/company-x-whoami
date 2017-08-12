@@ -80,25 +80,21 @@ div.mainimage {
 	font-family: 'Libre Baskerville', serif;
 	text-align: center;
 	margin-top: 60px;
-	color: dimgray;
 }
 
 .career-blurb {
 	font-family: 'Libre Baskerville', serif;
-	color: dimgray;
 	margin: 20px;
 }
 
 .job-header  {
 	font-family: 'Libre Baskerville', serif;
-	color: dimgray;
 	text-align: center;
 	margin-top: 50px;
 }
 
 .apply {
 	font-family: 'Libre Baskerville', serif;
-	color: dimgray;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 0;
@@ -108,7 +104,6 @@ div.mainimage {
 
 #job-container {
 	font-family: 'Libre Baskerville', serif;
-	color: dimgray;
 }
 
 #job-container > h3, h4, p {
@@ -123,6 +118,7 @@ div.mainimage {
 
 .description {
 	font-size: .75em;
+	padding: 5px 0;
 }
 
 .title {
@@ -132,7 +128,6 @@ div.mainimage {
 #apply-button {
 	margin-left: 20px;
 	font-family: 'Libre Baskerville', serif;
-	color: dimgray;
 }
 
 /*STICKY FOOTER*/
