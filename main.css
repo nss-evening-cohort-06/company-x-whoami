@@ -162,20 +162,20 @@ div.mainimage {
 }
 
 /*PRESS PAGE*/
+#press-container section {
+  display: flex;
+  margin: 5% 15% 5% 10%;
+}
 #press-container h3 {
 	font-family: 'Playfair Display', serif;
 }
 #press-container p {
 	font-family: 'Libre Baskerville', serif;
 }
-#press-container section {
-  display: flex;
-  margin: 5% 15% 5% 10%;
-  }
 #press-container img {
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  max-width: 150px;
+  max-height: 150px;
 }
 .award-description {
 	margin-left: 3%;
@@ -201,7 +201,7 @@ div.mainimage {
 #color-box {
 	background-color: ghostwhite;
 }
-#team-page-header, .shop-now {
+#team-page-header, .shop-now, #press-page-header {
   padding-top: 25px;
   text-align: center;
   font-size: 1.6em;
