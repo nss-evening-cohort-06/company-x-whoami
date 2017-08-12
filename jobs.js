@@ -32,8 +32,34 @@ allJobs.push(job4);
 
 console.log(allJobs);
 
+var workImages = [];
+function addWorkImage (imagePath, imageAlt, location){
+	workImages.push ({
+		imagePath: imagePath,
+		imageAlt: imageAlt,
+		location: location
+	});
+}
+
+addWorkImage("fgbgcorp.jpg", "Corporate Headquarters", "Corporate Headquarters");
+addWorkImage("guineaoffice.jpg", "Parsippany, NJ Office", "Parsippany, NJ Office");
+addWorkImage("guinearec.jpg", "Outdoor Workspaces", "Outdoor Workspaces");
+
+
+
+var imgString = "";
+for (var i = 0; i < workImages.length; i++) {
+	imgString += '<article class="pig-work">';
+  	imgString +=  '<img class="work-image" src=' + workImages[i].imagePath + ' alt=' + workImages[i].imageAlt + '>';
+    imgString +=  '<h5 class="work-description">' + workImages[i].location + '</h5>';
+    imgString += '</article>'
+}
+
+document.getElementById("images-container").innerHTML += imgString;
+ 		
+
 var jobContainer = document.getElementById("job-container");
-var applyScroll = document.getElementById("apply").scrollIntoView();
+
 
 for (var i = 0; i < allJobs.length; i++){
 
