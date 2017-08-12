@@ -267,8 +267,10 @@ div.mainimage {
 #culture-container img {
 	display: block;
 	margin: auto;
+	margin-top: 5%;
 	width: 400px;
 	height: 300px;
+	border-radius: 100px;
 }
 #culture-container h3 {
 	font-family: 'Playfair Display', serif;
@@ -277,9 +279,23 @@ div.mainimage {
 	font-family: 'Libre Baskerville', serif;
 }
 #culture-container section {
-	margin-top: 10%;
+	margin-top: 5%;
 }
-
+.culture-description {
+	margin-left: 7%;
+	margin-right: 7%;
+}
+.cult-name {
+	font-size: 1.7em;
+	font-weight: 500;
+	padding-bottom: 2px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid black;
+}
+.cult-blurb {
+  text-indent: 2em;
+  line-height: 2em;
+}
 
 
 
