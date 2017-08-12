@@ -58,11 +58,9 @@ nav a:hover {
 }
 /*HOMEPAGE STYLING*/
 div.mainimage {
-	width: 893px;
-	height: 548px;
+  max-width: 100%;
 	content:url("Guineamain (1).png");
 	float: right;
-	padding-left: 378px;	
 }
 .footer {
 	height: 21px;
@@ -150,7 +148,7 @@ div.mainimage {
 	font-size: 28px;
 	width: 182px;
 	position: relative;
-	top: -261px;
+	top: -617px;
 	left: 309px;
 	font-family: 'Playfair Display', serif;
 	padding: 9px;
@@ -243,7 +241,8 @@ div.mainimage {
 .Homepage-text {
 	color: black;
 	position: relative;
-	top: -500px;
+	width: 460px;
+	top: -800px;
 	left: 177px;
 	font-family: 'Playfair Display', serif;
 	font-size: 40px;
