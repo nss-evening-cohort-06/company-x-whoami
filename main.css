@@ -100,7 +100,9 @@ div.mainimage {
 	font-family: 'Libre Baskerville', serif;
 	color: dimgray;
 	text-align: center;
-	margin: 20px 0;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 20px;
 	border-bottom: 2px solid black;
 }
 
@@ -116,6 +118,7 @@ div.mainimage {
 .job {
 	padding: 20px 0;
 	border-bottom: 2px solid black;
+	margin: 0 20px;
 }
 
 .description {
@@ -159,20 +162,20 @@ div.mainimage {
 }
 
 /*PRESS PAGE*/
+#press-container section {
+  display: flex;
+  margin: 5% 15% 5% 10%;
+}
 #press-container h3 {
 	font-family: 'Playfair Display', serif;
 }
 #press-container p {
 	font-family: 'Libre Baskerville', serif;
 }
-#press-container section {
-  display: flex;
-  margin: 5% 15% 5% 10%;
-  }
 #press-container img {
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  max-width: 150px;
+  max-height: 150px;
 }
 .award-description {
 	margin-left: 3%;
@@ -195,6 +198,15 @@ div.mainimage {
 
 
 /*TEAM PAGE*/
+#color-box {
+	background-color: ghostwhite;
+}
+#team-page-header, .shop-now, #press-page-header {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 1.6em;
+	font-family: 'Playfair Display', serif;
+}
 #employee-container {
 	margin: 50px 10%;
   display: flex;
@@ -205,8 +217,10 @@ div.mainimage {
 }
 .employee {
 	padding: 2% 5%;
-  background-color: aliceblue;
   margin-bottom: 30px;
+  background-color: ghostwhite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+
 }
 .employee img {
 	width: 300px;
@@ -214,23 +228,21 @@ div.mainimage {
 }
 .employee h2 {
 	margin-top: 2px;
+	font-size: 1.7em;
+	font-family: 'Playfair Display', serif;
 }
-#team-page-header {
-  padding-top: 25px;
-  text-align: center;
+.employee h3, .employee p {
+	font-family: 'Libre Baskerville', serif;
+}
+.employee h3 {
+	font-size: 1.1em;
+	border-bottom: 2px solid black;
+}
 
-}
-/*SHOP PAGE*/
-#product-container {
-margin: 1% auto;
-}
-.product {
 
-}
-.product img {
-	width: 375px;
-	height: 400px;
-}
+
+
+
 
 /*HOMEPAGE TEXT*/
 .Homepage-text {
@@ -249,3 +261,123 @@ margin: 1% auto;
 
 
 
+
+
+
+
+
+
+
+/*Culture*/
+#culture-container img {
+	display: block;
+	margin: auto;
+	width: 400px;
+	height: 300px;
+}
+#culture-container h3 {
+	font-family: 'Playfair Display', serif;
+}
+#culture-container p {
+	font-family: 'Libre Baskerville', serif;
+}
+#culture-container section {
+	margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Shop*/
+
+
+#product-container {
+  margin: 40px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2% 0;
+  background-color: ghostwhite;
+}
+
+/***** Card Styling *****/
+
+.product {
+  width: 300px;
+  height: 260px;
+  padding: 2% 2%;
+  margin-bottom: 30px;
+  background-color: ghostwhite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.image img {
+	width: 250px;
+	height: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.details > * {
+	text-align: center;
+	margin: 0;
+}
+
+.details {
+	padding: 2% 0;
+}
+
+.details h3 {
+	font-size: 1.3em;
+	border-bottom: 1.1px solid black;
+	margin-top: 10px;
+
+}
+
+.details h5 {
+	display: inline-block;
+	text-align: end;
+}
+
+
+/***** Card Layout *****/
+
+/*#product-container {
+	font-family: 'Libre Baskerville', serif;
+	color: dimgray;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}*/
