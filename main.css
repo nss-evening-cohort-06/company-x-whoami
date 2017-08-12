@@ -268,8 +268,22 @@ div.mainimage {
 
 
 
-
-
+/*Culture*/
+#culture-container img {
+	display: block;
+	margin: auto;
+	width: 400px;
+	height: 300px;
+}
+#culture-container h3 {
+	font-family: 'Playfair Display', serif;
+}
+#culture-container p {
+	font-family: 'Libre Baskerville', serif;
+}
+#culture-container section {
+	margin-top: 10%;
+}
 
 
 
