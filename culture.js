@@ -24,9 +24,9 @@ var cultureString = "";
 for (var i = 0; i < culture.length; i++) {
 	cultureString +='<section>';
 	cultureString +=  	'<div class="culture-description">';
-	cultureString +=		'<img src=' + culture[i].imgPath + '>';
 	cultureString +=		'<h3 class="award-name">' + culture[i].title + '</h3>';
 	cultureString +=		'<p class="award-blurb">' + culture[i].description + '</p>';
+	cultureString +=		'<img src=' + culture[i].imgPath + '>';
 	cultureString +=	'</div>'
 	cultureString +='</section>'
 }
