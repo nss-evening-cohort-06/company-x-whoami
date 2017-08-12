@@ -100,6 +100,27 @@ div.mainimage {
 	border-bottom: 2px solid black;
 }
 
+.pig-work {
+	width: 250px;
+	height: 250px;
+}
+
+.pig-work h5 {
+	margin-top: 5px;
+}
+
+.work-image {
+	width: 250px;
+	height: 200px;
+}
+
+#images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
 #job-container {
 	font-family: 'Libre Baskerville', serif;
 }
@@ -107,6 +128,7 @@ div.mainimage {
 #job-container > h3, h4, p {
 	margin: 2px 20px;
 }
+
 
 .job {
 	padding: 20px 0;
